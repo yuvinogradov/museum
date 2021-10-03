@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>museum</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/favicon.ico" />
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-container">
+      <a href="#" class="logo-container">
+        <div class="logo-image"></div>
+        <div class="logo-text">Louvre</div>
+      </a>
+      <nav class="header__navigation">
+        <ul class="navigation">
+          <li class="nav-link"><a href="#visiting">Visiting</a></li>
+          <li class="nav-link"><a href="#explore">Explore</a></li>
+          <li class="nav-link"><a href="#video">Video</a></li>
+          <li class="nav-link"><a href="#gallery">Gallery</a></li>
+          <li class="nav-link"><a href="#tickets">Tickets</a></li>
+          <li class="nav-link"><a href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="section dark-section welcome-section">
+      <div class="container welcome-container">
+        <div class="welcome-page__frame1">
+          <h1 class="section__header">Welcome to&nbsp;the Louvre</h1>
+          <div class="moto">From the castle to the museum</div>
+          <div>
+
+            <button class="welcome-page__button" onclick="location.href='tour1.html'" type="button">Discover the
+              Louvre</button>
+          </div>
+        </div>
+        <div class="welcome-page__slider-container">
+          <!-- <div class="welcome-slide">
+
+          </div> -->
+          <div class="slider__image">
+
+            <img src="assets/img/welcome-slider/1.jpg" alt="Slider image" class="slider__image" />
+          </div>
+          <div class="welcome-slider-controls">
+            <div class="welcome-slider-controls__counter">
+              <span class="welcome-slider-counter-first">01</span>|<span
+                class="welcome-slider-counter-current">05</span>
+            </div>
+            <div class="welcome-slider-controls__pagination">
+              <div class="welcome-slider-pagination-item active" data-slide="1"></div>
+              <div class="welcome-slider-pagination-item" data-slide="2"></div>
+              <div class="welcome-slider-pagination-item" data-slide="3"></div>
+              <div class="welcome-slider-pagination-item" data-slide="4"></div>
+              <div class="welcome-slider-pagination-item" data-slide="5"></div>
+            </div>
+            <div class="welcome-slider-controls__arrows">
+              <button class="welcome-slider-controls-prev" id="welcomePrev" title="Prev Slide"></button>
+              <button class="welcome-slider-controls-next" id="welcomeNext" title="Next Slide"></button>
+            </div>
+          </div>
+          <div class="slider__pagination-container">
+            <div class="pagination__arrows"></div>
+            <div class="paagination__carousel-pagination"></div>
+            <div class="pagination__slide-num"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="section visiting-section" id="visiting">
+      <div class="container">
+        <h2 class="section__header underline-title light-section-header">Virtual tour</h2>
+        <div class="cards-container">
+          <a href="#" class="vitrual-tour-card">
+            <img class="card__image" src="assets/img/visiting/visiting1.jpg" alt="Royal Palace">
+            <div class="card__header">Royal Palace</div>
+            <div class="card__text">
+              <p class="card__text-header">360° Virtual Tour</p>
+              <p class="card__text-body">Google Street Panorama View</p>
+            </div>
+          </a>
+
+          <a href="#" class="vitrual-tour-card">
+            <img class="card__image" src="assets/img/visiting/visiting2.jpg" alt="Denon Wing">
+            <div class="card__header">Denon Wing</div>
+            <div class="card__text">
+              <p class="card__text-header">360° Virtual Tour</p>
+              <p class="card__text-body">Google Street Panorama View</p>
+            </div>
+          </a>
+
+          <a href="#" class="vitrual-tour-card">
+            <img class="card__image" src="assets/img/visiting/visiting3.jpg" alt="Colonnade Perrault">
+            <div class="card__header">Colonnade Perrault</div>
+            <div class="card__text">
+              <p class="card__text-header">360° Virtual Tour</p>
+              <p class="card__text-body">Google Street Panorama View</p>
+            </div>
+          </a>
+
+          <a href="#" class="vitrual-tour-card">
+            <img class="card__image" src="assets/img/visiting/visiting4.jpg" alt="Greek hall">
+            <div class="card__header">Greek hall</div>
+            <div class="card__text">
+              <p class="card__text-header">360° Virtual Tour</p>
+              <p class="card__text-body">Google Street Panorama View</p>
+            </div>
+          </a>
+          <a href="#" class="vitrual-tour-card">
+            <img class="card__image" src="assets/img/visiting/visiting5.jpg" alt="Mona Lisa">
+            <div class="card__header">Mona Lisa</div>
+            <div class="card__text">
+              <p class="card__text-header">360° Virtual Tour</p>
+              <p class="card__text-body">Google Street Panorama View</p>
+            </div>
+          </a>
+
+          <a href="#" class="vitrual-tour-card">
+            <img class="card__image" src="assets/img/visiting/visiting6.jpg" alt="Night Palace">
+            <div class="card__header">Night Palace</div>
+            <div class="card__text">
+              <p class="card__text-header">360° Virtual Tour</p>
+              <p class="card__text-body">Google Street Panorama View</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="section dark-section" id="explore">
+      <div class="container explore_container">
+        <div class="explore__text">
+          <h2 class="section__header underline-title ">Picture explore</h2>
+          <p>Las Meninas is a 1656 painting by Diego Velázquez,
+            the leading artist&nbsp;of the Spanish Golden Age.</p>
+          <p>It was cleaned in 1984 to remove a <span>"yellow veil"</span>
+            of dust that had gathered since the previous restoration in the 19th
+            century.</p>
+          <p>The cleaning provoked furious protests, not because the picture had been damaged
+            in any way, but because it looked
+            different.</p>
+
+        </div>
+        <img src="assets/img/explore-slider/before.jpg" alt="Las Meninas painting by Diego Velazquez"
+          class="explore__image">
+
+
+      </div>
+
+    </section>
+    <section class="section video-section" id="video">
+      <div class="container">
+        <div class="video__text">
+          <h2 class="section__header light-section-header">Video journey</h2>
+          <p>Enter and visit one of the most famous museums in the world and enjoy
+            masterpieces such as Mona Lisa or Hammurabi's Code</p>
+        </div>
+
+        <div class="video__videos">
+          <div class="videos__main-video">
+            <img src="assets/video/mock-video-player.jpg" alt="Watch the movie about Louvre">
+          </div>
+          <div class="videos__slider">
+            <div class="videos-slider__previews">
+              <img src="./assets/video/poster3.jpg" alt="Poster 3" class="video_previews__item">
+              <img src="./assets/video/poster1.jpg" alt="Poster 2" class="video_previews__item">
+              <img src="./assets/video/poster2.jpg" alt="Poster 1" class="video_previews__item">
+            </div>
+            <div class="videos-slider__paginator">
+              **** PAGINATOR ****
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section dark-section" id="gallery">
+      <div class="container">
+        <div class="picture-container">
+          <h2 class="section__header  ">Art Gallery</h2>
+          <div class="picture-inner-container">
+            <img src="assets/img/gallery/galery2.jpg" alt="Gallery" class="gallery-picture">
+            <img src="assets/img/gallery/galery9.jpg" alt="Gallery" class="gallery-picture">
+            <img src="assets/img/gallery/galery4.jpg" alt="Gallery" class="gallery-picture">
+            <img src="assets/img/gallery/galery6.jpg" alt="Gallery" class="gallery-picture">
+            <img src="assets/img/gallery/galery1.jpg" alt="Gallery" class="gallery-picture">
+            <img src="assets/img/gallery/galery8.jpg" alt="Gallery" class="gallery-picture">
+            <img src="assets/img/gallery/galery3.jpg" alt="Gallery" class="gallery-picture">
+            <img src="assets/img/gallery/galery5.jpg" alt="Gallery" class="gallery-picture">
+            <img src="assets/img/gallery/galery7.jpg" alt="Gallery" class="gallery-picture">
+            <img src="assets/img/gallery/galery10.jpg" alt="Gallery" class="gallery-picture">
+            <img src="assets/img/gallery/galery15.jpg" alt="Gallery" class="gallery-picture">
+            <img src="assets/img/gallery/galery12.jpg" alt="Gallery" class="gallery-picture">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="tickets">
+      <div class="container">
+        <div class="tickets-container1">
+          <h2 class="section__header underline-title light-section-header">Buy tickets</h2>
+          <div class="tickets-container2">
+            <img src="assets/img/tickets/1.jpg" alt="Buy tickets">
+            <div class="ticket-type">
+              <h3>Ticket Type</h3>
+              <form>
+                <label class="radio-select">Permanent exhibition
+                  <input type="radio" checked="checked" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="radio-select">Temporary exhibition
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="radio-select">Combined Admission
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+              </form>
+            </div>
+            <div class="amount">
+              <h3>Amount</h3>
+              <div class=amount-selector>
+                <h4>Basic 18+</h4>
+                <div class="amount-input">
+
+                </div>
+              </div>
+              <div class=amount-selector>
+                <h4>Senior 65+</h4>
+                <div class="amount-input">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+  <footer class="section dark-section">
+    <div class="footer container">
+      <a class="footer__logo logo" href="#">
+        <div class="logo__img"></div>
+        <div class="logo__text">Louvre</div>
+      </a>
+      <nav class="footer__nav nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="#visiting">Visiting</a></li>
+          <li class="nav__item"><a class="nav__link" href="#explore">Explore</a></li>
+          <li class="nav__item"><a class="nav__link" href="#video">Video</a></li>
+          <li class="nav__item"><a class="nav__link" href="#gallery">Gallery</a></li>
+          <li class="nav__item"><a class="nav__link" href="#tickets">Tickets</a></li>
+          <li class="nav__item"><a class="nav__link" href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
+      <div class="social footer__social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link youtube-link" href="https://www.youtube.com/user/louvre" title="Youtube Link"></a>
+          </li>
+          <li class="social__item">
+            <a class="social__link instagram-link" href="https://www.instagram.com/museelouvre/"
+              title="Instagram Link"></a>
+          </li>
+          <li class="social__item">
+            <a class="social__link facebook-link" href="https://www.facebook.com/museedulouvre"
+              title="Facebook Link"></a>
+          </li>
+          <li class="social__item">
+            <a class="social__link twitter-link" href="http://twitter.com/museelouvre" title="Twitter Link"></a>
+          </li>
+          <li class="social__item">
+            <a class="social__link pinterest-link" href="https://www.pinterest.fr/museedulouvre/"
+              title="Pinterest Link"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-copyright-wrapper">
+      <div class="footer container footer-copyright">
+        <div class="year">© 2021</div>
+        <div class="school"><a href="https://docs.rs.school/">The Rolling Scopes School</a></div>
+        <div class="author"><a href="https://github.com/yuvinogradov/">yuvinogradov</a></div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="js/gallery.js"></script>
+<!-- <script>
+  let pictureInnerContainer = document.querySelector('.picture-inner-container');
+
+    const img = document.createElement('img');
+    img.classList.add('gallery-picture')
+    img.src = `assets/img/gallery/galery1.jpg`;
+    img.alt = `galery1`;
+    pictureInnerContainer.append(img);
+</script> -->
+
+</html>
