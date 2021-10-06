@@ -3,9 +3,7 @@ function shuffle(array) {
 }
 
 a = Array(15).fill(0, 0, 15).map((a, i) => `assets/img/gallery/galery${i + 1}.jpg`)
-console.log(a)
 shuffle(a)
-console.log(a)
 
 
 let pictureInnerContainer = document.querySelector('.picture-inner-container');
